@@ -1,10 +1,19 @@
 # hoshizora-py
 Generate alpha blending of two images with different looks in black/white background.
 
+### Dependency
+- opencv-python
+- numpy
+- optparse
+
+to install dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
 ### Usage
-
-```hoshizora.py -f front.jpg -b back.jpg -o rem.png -d 100```
-
+```bash
+hoshizora.py -f front.jpg -b back.jpg -o rem.png -d 100```
 ```
 -f front layer, any image format that supported by OpenCV
 -b back layer, any image format that supported by OpenCV
@@ -18,4 +27,3 @@ Generate alpha blending of two images with different looks in black/white backgr
 ### Screenshots
 
 ![screenshots](screenshot.png)
-
