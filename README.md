@@ -13,7 +13,10 @@ pip3 install -r requirements.txt
 
 ### Usage
 ```bash
-hoshizora.py -f front.jpg -b back.jpg -o rem.png -d 100```
+hoshizora.py -f front.jpg -b back.jpg -o rem.png -d 100
+```
+
+#### parameters
 ```
 -f front layer, any image format that supported by OpenCV
 -b back layer, any image format that supported by OpenCV
