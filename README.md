@@ -2,14 +2,14 @@
 Generate alpha blending of two images with different looks in black/white background.
 
 ### Dependency
-- opencv-python
-- numpy
 - optparse
 
-to install dependencies
-```bash
-pip3 install -r requirements.txt
-```
+either
+- opencv-python
+- numpy
+
+or
+- pillow
 
 ### Usage
 ```bash
